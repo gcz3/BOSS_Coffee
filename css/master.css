@@ -1,0 +1,40 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif
+}
+
+.w3-bar,h1,button {
+    font-family: "Montserrat", sans-serif
+}
+
+#mainLogo {
+    height: auto;
+    width: 60%;
+}
+
+.primary-color {
+    background-color: #0C2156;
+}
+
+.secondary-color {
+    background-color: #FFFFFF;
+    color: #0C2156;
+}
+
+.primary {
+    background-color: #0C2156 !important;
+    color: #FFFFFF !important;
+}
+
+.hover-primary:hover {
+    background-color: #0C2156 !important;
+    color: #FFFFFF !important;
+}
+
+.text-color {
+    color: #FFFFFF;
+}
+
+#footerLogo {
+    height: auto;
+    max-width: 50%;
+}

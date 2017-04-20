@@ -1,0 +1,24 @@
+#title {
+    font-size: 64px!important;
+}
+
+#tommyJonesPic {
+    height: auto;
+    margin-top: 30px;
+    width: 310px;
+    padding-left: 50px;
+}
+
+@media screen and (max-device-width: 750px) {
+    #title {
+        font-size: 45px!important;
+    }
+
+    #tommyJonesPic {
+        max-width: 100%;
+    }
+
+    iframe {
+        width: 350px;
+    }
+}
