@@ -38,3 +38,29 @@ body,h1,h2,h3,h4,h5,h6 {
     height: auto;
     max-width: 50%;
 }
+
+/*This stuff shouldn't be here and belongs to advertisements.css but that file wasn't loading for some reason*/
+#title {
+    font-size: 64px!important;
+}
+
+#tommyJonesPic {
+    height: auto;
+    margin-top: 30px;
+    width: 310px;
+    padding-left: 50px;
+}
+
+@media screen and (max-device-width: 750px) {
+    #title {
+        font-size: 45px!important;
+    }
+
+    #tommyJonesPic {
+        max-width: 100%;
+    }
+
+    iframe {
+        width: 350px;
+    }
+}
